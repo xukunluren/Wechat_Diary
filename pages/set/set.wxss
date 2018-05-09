@@ -1,0 +1,11 @@
+/* pages/set/set.wxss */
+page {  
+  display: block;  
+  min-height: 100%;  
+  background-color: #242426;  
+}
+page {  
+  display: block;  
+  min-height: 100%;  
+  background-color: #242426;  
+}

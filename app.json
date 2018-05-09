@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/list/list",
+    "pages/add/add",
+    "pages/set/set",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#242426",
+    "navigationBarTitleText": "好记",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "backgroundColor":"#242426",
+    "borderStyle": "black",
+    "list":[{
+      "pagePath":"pages/list/list",
+      "text":" ",
+      "iconPath":"images/list.png",
+      "selectedIconPath":"images/list_select.png"
+    },{
+      "pagePath": "pages/add/add",
+      "text": " ",
+      "iconPath": "images/add.png",
+      "selectedIconPath": "images/add.png"
+    },{
+      "pagePath": "pages/set/set",
+      "text": " ",
+      "iconPath": "images/set.png",
+      "selectedIconPath": "images/set_select.png"
+    }]
+  }
+}
