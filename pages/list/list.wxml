@@ -1,1 +1,24 @@
-<view class="content" >list</view>
+<view class="content" >
+<template name="onlyText">
+<view class="list">
+  <view class="leftView">
+    <view class="time">
+      <view class="moment" style="font-size:40rpx ">17:20</view>
+      <view class="day" style="font-size:35rpx ">今天</view>
+    </view>
+    <view class="fengexian">
+     <view class="circle"></view>
+     <view class="shuxian"></view>
+    </view>
+  </view>
+</view>
+
+  <view class="rightView">
+    <view class="title">title</view>
+    <view class="content">content</view>
+  </view>
+</template>
+<view class="listView">
+  <template is="onlyText"/>
+</view>
+</view>

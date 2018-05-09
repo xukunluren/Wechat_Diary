@@ -6,3 +6,61 @@ page {
   min-height: 100%;  
   background-color: #242426;  
 }
+.listView{
+  /* display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative; */
+
+}
+.list{
+  position: relative;
+  
+
+}
+.list .leftView{
+  float: left;
+  width: 35vw;
+  height: 300rpx;
+  position: relative
+
+}
+.list .leftView .time{
+  color: #A3ADCA;
+  width: 200rpx;
+  margin-left: 100rpx;
+  float: left;
+
+}
+.list .leftView .fengexian{
+  width: 20rpx;
+  right: 15rpx;
+  position: absolute
+}
+.list .leftView .fengexian .circle{
+  background-color: #444953;
+  width: 20rpx;
+  height: 20rpx;
+  border-radius:10px;
+}
+.list .leftView .fengexian .shuxian{
+  background-color: #444953;
+  width: 1rpx;
+  height: 280rpx;
+  margin-left: 8rpx;
+}
+.list .leftView .time.moment{
+  font-size: 40rpx;
+  font-family: "STKaiti";
+}
+.list .leftView .time.day{
+  font-size: 20rpx;
+  
+  
+}
+
+.list .rightView{
+  position: relative;
+  width: 65vw;
+  height: 200rpx;
+}
