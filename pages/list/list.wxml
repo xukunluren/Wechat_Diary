@@ -3,8 +3,8 @@
 <view class="list">
   <view class="leftView">
     <view class="time">
-      <view class="moment" style="font-size:40rpx ">17:20</view>
-      <view class="day" style="font-size:35rpx ">今天</view>
+      <view class="moment" style="font-size:40rpx ">{{time}}</view>
+      <view class="day" style="font-size:35rpx ">{{day}}</view>
     </view>
     <view class="fengexian">
      <view class="circle"></view>
@@ -14,10 +14,10 @@
 </view>
   <view class="rightView">
     <view class="title">
-     <text>今天天气特别好</text>
+     <text>{{title}}</text>
     </view>
     <view class="content">
-      <text>是的啊，天气好心情好，做啥都好，真真的好，好你妹啊。人生如棋，何必想太多。</text>
+      <text>{{content}}</text>
     </view>
   </view>
 </template>
@@ -25,5 +25,7 @@
   <template is="onlyText"/>
 </view>
 
-<view>jjjjjjjjssss</view>
+<view wx:for="{{array}}" class="lists">
+      <template is="onlyText" data="{{...item}}"/>
+  </view>
 </view>
