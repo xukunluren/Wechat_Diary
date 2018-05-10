@@ -12,13 +12,18 @@
     </view>
   </view>
 </view>
-
   <view class="rightView">
-    <view class="title">title</view>
-    <view class="content">content</view>
+    <view class="title">
+     <text>今天天气特别好</text>
+    </view>
+    <view class="content">
+      <text>是的啊，天气好心情好，做啥都好，真真的好，好你妹啊。人生如棋，何必想太多。</text>
+    </view>
   </view>
 </template>
 <view class="listView">
   <template is="onlyText"/>
 </view>
+
+<view>jjjjjjjjssss</view>
 </view>
