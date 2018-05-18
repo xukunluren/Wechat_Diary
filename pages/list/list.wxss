@@ -71,8 +71,14 @@ page {
   padding-right:20px;
 }
 .content{
+  display: -webkit-box;
   margin-top: 15rpx;
   color: #A3ADCA;
   font-size: 32rpx;
   margin-left: 20px;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:3;
+  overflow: hidden;
 }

@@ -1,10 +1,14 @@
+const app = getApp();
+
+const api = require('../../utils/api.js');
+
 Page({
   data: {
     array: [{
       day: '今天',
       time: '17:09',
       title: '你好晴天',
-      content:'不保持纵横比缩放图片，使图片完全适应不保持纵横比缩放图片，使图片完全适应不保持纵横比缩放图片，使图片完全适应不保持纵横比缩放图片，使图片完全适应'
+      content:'不保持纵横比缩放图片，使图片完全适应不保持纵横比缩放图片，使图片完全适应不保持纵横比缩放图片，使图片完全适应不保持纵横比缩'
     }, {
         day: '今天',
         time: '17:09',
@@ -41,5 +45,14 @@ Page({
         title: '你好晴天',
         content: '不保持纵横比缩放图片，使图片完全适应不保持纵横比缩放图片，使图片完全适应不保持纵横比缩放图片，使图片完全适应不保持纵横比缩放图片，使图片完全适应'
     }]
-  } 
+  } ,
+  gotoDetail: function(e){
+    wx.navigateTo({
+      const index = parsenet(e.currentTarget.dataset.index);
+
+      // url: '../logs/logs'
+      
+    })  
+  }
+
 })

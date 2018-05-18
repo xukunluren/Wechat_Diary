@@ -12,7 +12,7 @@
     </view>
   </view>
 </view>
-  <view class="rightView">
+  <view class="rightView" bindtap="gotoDetail">
     <view class="title">
      <text>{{title}}</text>
     </view>
@@ -21,11 +21,9 @@
     </view>
   </view>
 </template>
-<view class="listView">
-  <template is="onlyText"/>
-</view>
+
 
 <view wx:for="{{array}}" class="lists">
-      <template is="onlyText" data="{{...item}}"/>
+      <template  is="onlyText" data="{{...item}}"/>
   </view>
 </view>
