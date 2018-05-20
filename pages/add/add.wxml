@@ -1,1 +1,28 @@
-<view>add</view>
+<view class="content">
+  <view class="view up"></view>
+  <view class="view down">
+     <view class="titleclass">
+      <text class="text">记录好时光</text>
+    </view>
+    <view class="itemclass">
+      <view class="item item1">
+        <view class="imagview"></view>
+        <view class="titleView">
+         <text>声音</text>
+        </view>
+      </view>
+      <view class="item item2">
+        <view class="imagview"></view>
+        <view class="titleView">
+         <text>声音</text>
+        </view>
+      </view>
+      <view class="item item3">
+        <view class="imagview"></view>
+        <view class="titleView">
+          <text>声音</text>
+        </view>
+      </view>
+    </view> 
+  </view>
+</view>

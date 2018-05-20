@@ -5,6 +5,7 @@ const api = require('../../utils/api.js');
 Page({
   data: {
     array: [{
+      id:'1',
       day: '今天',
       time: '17:09',
       title: '你好晴天',
@@ -47,11 +48,10 @@ Page({
     }]
   } ,
   gotoDetail: function(e){
+    console.log(e)
+    const title = e.currentTarget.dataset.title;
     wx.navigateTo({
-      const index = parsenet(e.currentTarget.dataset.index);
-
-      // url: '../logs/logs'
-      
+      url: '../detailPage/detailPage?title='+title
     })  
   }
 
