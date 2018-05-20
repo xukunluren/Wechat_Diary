@@ -1,0 +1,12 @@
+.contain{
+  background-color:#242426;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+
+}
+.textarea{
+  color: #A3ADCA;
+  margin: 30rpx 30rpx 30rpx 30rpx;
+  position: absolute;
+}

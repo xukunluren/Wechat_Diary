@@ -1,0 +1,29 @@
+<view class="content" >
+<template name="onlyText">
+<view class="list">
+  <view class="leftView">
+    <view class="time">
+      <view class="moment" style="font-size:40rpx ">{{time}}</view>
+      <view class="day" style="font-size:35rpx ">{{day}}</view>
+    </view>
+    <view class="fengexian">
+     <view class="circle"></view>
+     <view class="shuxian"></view>
+    </view>
+  </view>
+</view>
+  <view class="rightView" bindtap="gotoDetail">
+    <view class="title">
+     <text>{{title}}</text>
+    </view>
+    <view class="content">
+      <text>{{content}}</text>
+    </view>
+  </view>
+</template>
+
+
+<view wx:for="{{array}}" class="lists">
+      <template  is="onlyText" data="{{...item}}"/>
+  </view>
+</view>
