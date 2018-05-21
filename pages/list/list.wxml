@@ -26,7 +26,7 @@
 </view>
 </template>
 
-<view wx:for="{{array}}" style="height:240rpx">
+<view class="listView" wx:for="{{array}}">
       <template  is="onlyText" data="{{...item}}"/>
 </view>
 

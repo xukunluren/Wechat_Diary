@@ -11,7 +11,10 @@
   top: 80rpx;
   width: 100%;
   left: 20rpx;
-  height: 1rpx;
+  height: 0.5rpx;
+}
+.inputArea{
+  color: white
 }
 .textarea{
   width: 100%;
@@ -31,9 +34,21 @@
   margin-top: 20rpx;
   margin-left: 20rpx;
   margin-right: 20rpx;
-  height: 98%;
-  width: 98%;
-  /* position: absolute; */
-  bottom: 100rpx; 
+  margin-bottom: 20rpx;
+  position: absolute;
+  height: 95%; 
+  width: 98%; 
+  color: white;
+  line-height: 30rpx;
+  font-size: 40rpx;
+  bottom: 10rpx; 
+
+}
+.bottomView{
+  background-color: red;
+  width: 100%;
+  height: 100rpx;
+  position: absolute;
+  bottom: 0rpx;
 }
 

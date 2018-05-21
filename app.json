@@ -1,8 +1,9 @@
 {
   "pages":[
+    "pages/list/list",
     "pages/textEdit/textEdit",
     "pages/add/add",
-    "pages/list/list",
+  
     "pages/set/set",
     "pages/index/index",
     "pages/logs/logs",

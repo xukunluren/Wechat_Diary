@@ -1,20 +1,25 @@
+.listView{
+  height: 250rpx;
+  width: 100%;
+  top: 0;
+}
 .container{
   background-color: #242426; 
   width: 100%;
-  height: 240rpx;
+  height: 250rpx;
   display: flex;
   flex-flow: row wrap;
 }
 .leftView{
-  height: 240rpx;
+  height: 250rpx;
   display: flex;
   flex-grow: 1;
 }
 .rightView{
-height: 240rpx;
- display: flex;
- position: relative;
-flex-grow: 3;
+  height: 250rpx;
+  display: flex;
+  position: relative;
+  flex-grow: 3;
 }
 
 .dateClass{
@@ -24,8 +29,7 @@ flex-grow: 3;
 }
 .divisionClass{
   display: flex;
-  flex-grow: 1;
-  /* justify-content: center; */
+  flex-grow: 2;
   position: relative;
 }
 
@@ -58,8 +62,8 @@ flex-grow: 3;
 .VerticalLine{
   background-color: #444953;
   width: 0.5rpx;
-  height: 230rpx;
-  left: 30rpx;
+  height: 260rpx;
+  right: 12rpx;
   position: absolute; 
 }
 

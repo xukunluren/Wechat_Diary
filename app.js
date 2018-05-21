@@ -1,6 +1,25 @@
 //app.js
 App({
   onLaunch: function () {
+
+
+
+
+    wx.getLocation({
+      type: 'wgs84',
+      success: function (res) {
+        var latitude = res.latitude
+        var longitude = res.longitude
+        var speed = res.speed
+        var accuracy = res.accuracy
+
+        console.log(latitude)
+        console.log(longitude)
+      }
+    })
+
+
+
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -35,5 +54,6 @@ App({
   },
   globalData: {
     userInfo: null
-  }
+  },
+   
 })
