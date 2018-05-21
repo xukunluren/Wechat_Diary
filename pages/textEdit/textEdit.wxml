@@ -1,0 +1,9 @@
+<view class="page-body">
+    <view class="textarea title">
+        <input class="inputArea" auto-focus placeholder="输入一个标题吧"/>
+    </view>
+    <view class="fengexian"></view>
+    <view class="textarea content">
+      <textarea class="textClass" auto-focus="true"  placeholder="请写点什么"/>
+    </view>
+</view>

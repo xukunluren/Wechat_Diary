@@ -5,20 +5,32 @@
       <text class="text">记录好时光</text>
     </view>
     <view class="itemclass">
-      <view class="item item1">
-        <view class="imagview"></view>
+      <view class="item item1" bindtap="textTap">
+        <view class="imagview">
+          <view class="iconclass">
+            <image class="imageIcon" mode="aspectFill" src="../../images/text.png"></image>
+          </view>
+        </view>
         <view class="titleView">
-         <text>声音</text>
+         <text>文本</text>
         </view>
       </view>
-      <view class="item item2">
-        <view class="imagview"></view>
+      <view class="item item2"  bindtap="imageTap">
+        <view class="imagview">
+          <view class="iconclass">
+           <image class="imageIcon" mode="aspectFill" src="../../images/picture.png"></image>
+          </view>
+        </view>
         <view class="titleView">
-         <text>声音</text>
+         <text>图片</text>
         </view>
       </view>
-      <view class="item item3">
-        <view class="imagview"></view>
+      <view class="item item3" bindtap="audioTap">
+        <view class="imagview">
+          <view class="iconclass">
+           <image class="imageIcon audio" mode="aspectFill" src="../../images/audio.png"></image>
+          </view>
+        </view>
         <view class="titleView">
           <text>声音</text>
         </view>

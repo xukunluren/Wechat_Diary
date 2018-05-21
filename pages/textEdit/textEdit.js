@@ -7,21 +7,6 @@ Page({
     
   },
 
-  textTap:function(){
-        wx.navigateTo({
-          url: '../textEdit/textEdit'
-        })
-  },
-  imageTap :function(){
-    wx.navigateTo({
-      url: '../textEdit/textEdit'
-    })
-  },
-  audioTap:function(){
-    wx.navigateTo({
-      url: '../textEdit/textEdit'
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */
