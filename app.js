@@ -42,7 +42,10 @@ App({
   },
   
   globalData: {
-    userInfo: null
+    userInfo: null,
+    address:"",
+    latitude: "",
+    longitude: ""
   },
    
 })

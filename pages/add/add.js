@@ -1,3 +1,4 @@
+
 Page({
 
   /**
@@ -26,7 +27,20 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    var that = this
+    wx.getLocation({
+      type: 'gcj02',
+      success: function (res) {
+        var speed = res.speed
+        var accuracy = res.accuracy
+        that.setData({
+          latitude: res.latitude,
+          longitude: res.longitude
+        })
+        console.log(res.latitude)
+        console.log(res.longitude)
+      }
+    })
   },
 
   /**

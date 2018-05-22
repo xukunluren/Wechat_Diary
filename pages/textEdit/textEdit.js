@@ -14,7 +14,20 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    var that = this
+    wx.getLocation({
+      type: 'gcj02',
+      success: function (res) {
+        var speed = res.speed
+        var accuracy = res.accuracy
+        that.setData({
+          latitude:res.latitude,
+          longitude: res.longitude
+        })
+        console.log(res.latitude)
+        console.log(res.longitude)
+      }
+    })
 
   },
 
@@ -22,7 +35,36 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    
+    // 引入SDK核心类
+    var QQMapWX = require('../../utils/qqmap-wx-jssdk.js');
+
+    // 实例化API核心类
+    var demo = new QQMapWX({
+      key: 'Q3QBZ-VHVC4-CJ4U5-DZMSI-PJ7IJ-TZFOG' // 必填
+    });
+    var _this = this;
+    // 调用接口
+    demo.reverseGeocoder({
+      location: {
+        latitude: this.data.latitude,
+        longitude: this.data.longitude
+        // latitude: 39.984060,
+        // longitude: 116.307520
+      },
+      success: function (res) {
+        console.log(res);
+        _this.setData({
+          address:res.result.address_component.city
+        })
+        console.log(_this.data.address)
+      },
+      fail: function (res) {
+        console.log(res);
+      },
+      complete: function (res) {
+        console.log(res);
+      }
+    });
   },
 
   /**
