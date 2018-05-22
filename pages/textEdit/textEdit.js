@@ -5,6 +5,8 @@ Page({
    */
   data: {
     address:"",
+    latitude:"",
+    longitude:""
     
   },
 
@@ -13,6 +15,7 @@ Page({
    */
   onLoad: function (options) {
     
+
   },
 
   /**
@@ -62,5 +65,10 @@ Page({
    */
   onShareAppMessage: function () {
     
+  },
+  weatherTap:function(){
+    wx.navigateTo({
+      url: '../index/index',
+    })
   }
 })

@@ -2,9 +2,9 @@
     <view class="textarea title">
         <input class="inputArea" auto-focus placeholder="输入一个标题吧"/>
     </view>
-    <view class="fengexian"></view>
+    <!-- <view class="fengexian"></view> -->
+    <view class="centerView" bindtap="weatherTap"></view>
     <view class="textarea content">
       <textarea class="textClass" auto-focus="true" show-confirm-bar = "true"  adjust-position="true" placeholder="请写点什么"/>
     </view>
-    <view class="bottomView"></view>
 </view>
