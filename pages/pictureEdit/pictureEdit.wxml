@@ -1,7 +1,5 @@
+
 <view class="page-body">
-    <view class="textarea title">
-        <input class="inputArea" auto-focus placeholder="输入一个标题吧"/>
-    </view>
     <view class="centerView" bindtap="weatherTap">
     <view class="addressClass">
       <text>{{address}}</text>
@@ -11,5 +9,15 @@
     </view>
     <view class="textarea content">
       <textarea class="textClass" auto-focus="true" show-confirm-bar = "true"  adjust-position="true" placeholder="请写点什么"/>
+    </view>
+
+    <view class="bottomView">
+    <scroll-view class="scroll-view_H" scroll-x style="width: 100%">
+    <view id="green" class="scroll-view-item_H bc_green"></view>
+    <view id="red"  class="scroll-view-item_H bc_red"></view>
+    <view id="yellow" class="scroll-view-item_H bc_yellow"></view>
+    <view id="blue" class="scroll-view-item_H bc_blue"></view>
+  </scroll-view>
+  
     </view>
 </view>

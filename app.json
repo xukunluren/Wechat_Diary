@@ -3,7 +3,7 @@
     "pages/list/list",
     "pages/textEdit/textEdit",
     "pages/add/add",
-  
+    "pages/pictureEdit/pictureEdit",
     "pages/set/set",
     "pages/index/index",
     "pages/logs/logs",
