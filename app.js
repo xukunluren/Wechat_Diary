@@ -43,7 +43,7 @@ App({
   
   globalData: {
     userInfo: null,
-    address:"",
+    address:"未知",
     latitude: "",
     longitude: ""
   },
