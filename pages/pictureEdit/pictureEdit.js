@@ -9,7 +9,7 @@ Page({
     address: "",
     latitude: "",
     longitude: "",
-    src : null
+    src : ''
   },
 
   /**
@@ -20,7 +20,6 @@ Page({
       address: app.globalData.address
     })
     this.gotoShow()
-    
   },
   gotoShow: function () {
     var _this = this
@@ -51,7 +50,9 @@ Page({
   onReady: function () {
     // 引入SDK核心类
 
-
+    var that = this;
+    console.log("========")
+    console.log(that.data.src)
 
   },
 

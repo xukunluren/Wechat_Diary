@@ -7,7 +7,8 @@
     "pages/set/set",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/detailPage/detailPage"
+    "pages/detailPage/detailPage",
+    "pages/audioEdit/audioEdit"
     
   ],
   "window":{
